@@ -9,3 +9,5 @@ random.seed = (os.urandom(1024))
 
 url = '<request-receiver>'
 
+dummyData = json.loads(open('dummyData.json').read())
+
