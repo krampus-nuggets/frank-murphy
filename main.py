@@ -9,7 +9,7 @@ random.seed = (os.urandom(1024))
 
 attackURL = "<receiver-url>"
 
-dummyData = json.loads(open('dummyData.json').read())
+dummyData = json.loads(open("dummyData.json").read())
 
 for userData in dummyData:
     randomValues = ''.join(random.choices(string.digits))
