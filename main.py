@@ -20,4 +20,3 @@ for userData in dummyData:
     })
 
     print("Sending Username: {} and Password: {}".format(username, password))
-
