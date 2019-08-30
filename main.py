@@ -19,3 +19,5 @@ for userData in dummyData:
         <request-data>
     })
 
+    print("Sending Username: {} and Password: {}".format(username, password))
+
