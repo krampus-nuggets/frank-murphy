@@ -11,3 +11,8 @@ url = '<request-receiver>'
 
 dummyData = json.loads(open('dummyData.json').read())
 
+for userData in dummyData:
+    randomValues = ''.join(random.choices(string.digits))
+    username = userData.lower() + randomValues + '@mail.ru'
+    password = ''.join(random.choice(chars) for i in range(8))
+
